@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page - Gianderson F. Maciel</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            scroll-behavior:smooth;
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background:#f4f4f4;
+            color:#333;
+            line-height:1.6;
+        }
+
+        header{
+            background:#0d6efd;
+            color:white;
+            text-align:center;
+            padding:40px 20px;
+        }
+
+        header img{
+            width:180px;
+            height:180px;
+            border-radius:50%;
+            border:5px solid white;
+            margin-top:20px;
+        }
+
+        nav{
+            background:#084298;
+            padding:15px;
+        }
+
+        nav ul{
+            display:flex;
+            justify-content:center;
+            list-style:none;
+            gap:30px;
+            flex-wrap:wrap;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            font-weight:bold;
+        }
+
+        nav a:hover{
+            text-decoration:underline;
+        }
+
+        .container{
+            width:90%;
+            max-width:1100px;
+            margin:auto;
+            display:flex;
+            gap:20px;
+            padding:30px 0;
+        }
+
+        main{
+            flex:3;
+        }
+
+        section{
+            background:white;
+            margin-bottom:20px;
+            padding:20px;
+            border-radius:10px;
+            box-shadow:0 2px 8px rgba(0,0,0,.1);
+        }
+
+        article{
+            margin-top:15px;
+            padding:15px;
+            background:#f8f9fa;
+            border-left:5px solid #0d6efd;
+            border-radius:5px;
+        }
+
+        aside{
+            flex:1;
+            background:white;
+            padding:20px;
+            border-radius:10px;
+            box-shadow:0 2px 8px rgba(0,0,0,.1);
+            height:fit-content;
+        }
+
+        aside ul{
+            list-style:none;
+            margin-top:10px;
+        }
+
+        aside li{
+            margin-bottom:10px;
+        }
+
+        aside a{
+            color:#0d6efd;
+            text-decoration:none;
+        }
+
+        footer{
+            background:#0d6efd;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:20px;
+        }
+
+        @media(max-width:768px){
+
+            .container{
+                flex-direction:column;
+            }
+
+            nav ul{
+                flex-direction:column;
+                align-items:center;
+            }
+
+            header img{
+                width:140px;
+                height:140px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>Gianderson F. Maciel</h1>
+
+    <p>"Sempre aprendendo e evoluindo na área de Tecnologia."</p>
+
+    <img src="/Users/gianf/OneDrive/Pictures/Gian Senac.jpg" alt="Foto de Gian F. Maciel">
+
+</header>
+
+<nav>
+
+    <ul>
+
+        <li><a href="#sobre">Sobre Mim</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#extras">Extras</a></li>
+
+    </ul>
+
+</nav>
+
+<div class="container">
+
+<main>
+
+<section id="sobre">
+
+<h2>Sobre Mim</h2>
+
+<p>
+Meu nome é Gianderson Friedrich Maciel e sou estudante da área de Tecnologia da Informação.
+Tenho interesse em desenvolvimento web, programação e banco de dados.
+Busco aprimorar meus conhecimentos para construir aplicações modernas, responsivas e eficientes.
+</p>
+
+</section>
+
+<section id="habilidades">
+
+<h2>Habilidades</h2>
+
+<ul>
+
+<li>HTML5</li>
+
+<li>CSS3</li>
+
+<li>JavaScript</li>
+
+<li>Lógica de Programação</li>
+
+<li>SQL</li>
+
+<li>Git e GitHub</li>
+
+<li>Responsividade</li>
+
+</ul>
+
+</section>
+
+<section id="projetos">
+
+<h2>Projetos</h2>
+
+<article>
+
+<h3>Projeto 1 - Meu Portifólio</h3>
+
+<p><a href="https://gianfmaciel.github.io/modelo-portifolio-dev/" target="_blank">Primeiro portifólio com JavaScript</a>
+</p>
+
+</article>
+
+<article>
+
+<h3>Projeto 2 - Meu Primeiro E-commerce</h3>
+
+<p>
+Site e-commerce.
+</p>
+
+</article>
+
+</section>
+
+</main>
+
+<aside id="extras">
+
+<h2>Curiosidades</h2>
+
+<ul>
+
+<li>🎮 Gosto de jogos eletrônicos.</li>
+
+<li>💻 Programação.</li>
+
+<li>📚 Interesse em desenvolvimento Full Stack.</li>
+
+</ul>
+
+<h2 style="margin-top:20px;">Redes</h2>
+
+<ul>
+
+<li><a href="https://github.com/GianFMaciel" target="_blank">GitHub</a></li>
+
+<li><a href="https://www.linkedin.com/in/gianderson-f-maciel-91b977302?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">LinkedIn</a></li>
+
+<li><a href="https://www.instagram.com/gianfriedrichmaciel?utm_source=qr&igsh=MXR5bnl2bTlmaWNqOA==" target="_blank">Instagram</a></li>
+
+</ul>
+
+</aside>
+
+</div>
+
+<footer>
+
+<p>E-mail: gianmaciel06@email.com</p>
+
+<p>© 2026 Gianderson F. Maciel - Todos os direitos reservados.</p>
+
+</footer>
+
+</body>
+</html>
